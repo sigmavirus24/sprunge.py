@@ -17,7 +17,7 @@ requires = ['requests>=0.12.1']
 
 setup(
     name="sprunge.py",
-    version="0.1",
+    version="0.1.1",
     description="A small python script to post files to http://sprunge.us",
     long_description="\n\n".join([open("README.rst").read(), 
         open("HISTORY.rst").read()]),
@@ -25,6 +25,7 @@ setup(
     author_email="graffatcolmingov@gmail.com",
     url="https://github.com/sigmavirus24/sprunge.py",
     package_data={'': ['LICENSE']},
+    install_requires=requires,
     classifiers=(
         'Development Status :: 5 - Production/Stable',
         'Environment :: Console',
